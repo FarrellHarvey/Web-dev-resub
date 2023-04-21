@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script>
+    function myFunction() {
+      alert(document.getElementById("user_name").value + " Thank you for your interest!");
+    }
+    var loadFile = function (event) {
+      var image = document.getElementById('output');
+      image.src = URL.createObjectURL(event.target.files[0]);
+    };
+  </script>
+</head>
+<header>
+  <div class = "img">
+    <img src = "coffee_bean.png" alt = "coffee_beans" width = 50px height = 50px>
+  </div>
+</header>
+
+<body>
+  
+  <div class="header">
+    <h1>Sign up here</h1>
+  </div>
+   <div class = "topnav">
+    <a href="index.html">Home</a>
+    <a href="AboutUs.html">About us</a>
+    <a href="Employees.html">Employees</a>
+    <a class = "active" href="Get_Involved.html">Get involved</a>
+  </div>
+
+  <div class = "columntxt">
+    <div class = "head">
+    <h1>How can you get involved?</h1>
+    </div>
+    <p> If you would like us to make a website for you or to become a trainee in our amazing team just fill out the form on the right and we will be back to you as soon as we can!
+<br>
+Proin ac dolor scelerisque, accumsan lectus sed, vulputate ipsum. Donec a magna dictum, tristique arcu sit amet, elementum eros. Duis dui nisl, sollicitudin id vulputate ut, volutpat ac orci. Nullam convallis sem dolor, eu vulputate ex aliquet nec. Vestibulum nec pretium neque. Ut suscipit vulputate dolor, eu pellentesque massa maximus sit amet. Phasellus lobortis dictum bibendum. In vitae vehicula lorem. In in posuere lacus. Sed condimentum vulputate dolor. Aliquam consequat pellentesque odio ut elementum. Sed pretium leo odio, eu posuere nisi commodo vitae. Morbi eu augue scelerisque, egestas mi vel, dictum ex. Fusce cursus mauris vitae lorem posuere dapibus.
+<br>
+Etiam ligula eros, feugiat ac cursus in, vehicula at erat. Curabitur iaculis nisl non velit scelerisque malesuada. Nunc ut luctus massa, vel finibus neque. Pellentesque ut cursus velit. Aliquam erat volutpat. Proin consectetur nibh malesuada sagittis viverra. Cras elementum dolor in dictum mollis. Quisque faucibus ipsum urna, a condimentum dolor sodales non. Cras et quam non quam dapibus pharetra vitae ac ante. Aenean et ligula at lacus consectetur porttitor quis vel lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ut nisi leo. Nunc blandit eu elit eget interdum. Duis cursus aliquam orci, quis efficitur justo.</p>
+  </div>
+  
+  <div class = "columnim">
+<img src = "/Pictures/Office.png" width = 400px height = 300px><br>
+</div>
+  
+  <div class = "columnsi">
+  <form onsubmit="myFunction()">
+    <label for="user_name">Enter your name</label>
+    <input id="user_name" type="text" required></input>
+    <br>
+    <br>
+  
+   <label for="emails">Enter email addresses:</label>
+    <input type="email" id="emails" multiple>
+    <br>
+    <br>
+
+    <label for="phone">Enter a phone number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="123-45-678">
+    <br>
+    <br>
+    <label>Upload your CV</label>
+    <input type="file" id="myFile" name="file">
+    <br>
+    <br>
+    
+    <input type="submit"></input>
+    <br>
+    <br>
+    
+  </div>
+  
+  <div class ="bottom">
+    <p1>Our Contact information.</p>
+    <p>07123 567890</p>
+    <p>HotBeans23@mail.com</p>
+  </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+  
+</html>

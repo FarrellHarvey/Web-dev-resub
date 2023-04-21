@@ -1,0 +1,133 @@
+.header{
+  text-align: center;
+  font-size: 30px;
+  background-color: crimson;
+  padding: 10px;
+  border: solid 2px;
+  border-color: black;
+}
+
+.head{
+  text-align: center;
+  font-size: 15px;
+}
+body{
+  margin: 0%;
+  padding: 
+}
+.topnav{
+  background-color: grey;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  
+}
+.topnav a {
+  
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav *{
+  display: inline;
+}
+.active {
+  background-color: black;
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bottom {
+  display: block;
+  background-color: grey;
+  text-align: center;
+  position: fixed;
+  bottom: 0%;
+  left:0%;
+  width: 100%;
+  height:5%;
+  padding: 5px;
+}
+.list {
+  font-size: 17px;
+  font-family: sans-serif;
+  list-style-type: square;
+}
+html{
+  background-color: whitesmoke
+}
+.img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  
+}
+.map{
+  float: right;
+  width: 40%;
+  bottom: 10%
+}
+.img1{
+  position: absolute;
+  left: 15%;
+  top: 46%;
+}
+.img2{
+  position: absolute;
+  left: -10px;
+  top: 100%;
+}
+.img3{
+  position: absolute;
+  left: 250%
+  top: 130%;
+}
+.office{
+  position: absolute;
+  right: 20%;
+  top: 30%
+}
+.column{
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+.columnim{
+  width: 10%;
+  float: left;
+  
+    
+}
+.columnsi{
+  width: 20%;
+  text-align: right;
+  
+}
+.columnim2{
+  width: 30%;
+  position: absolute;
+  bottom: 108px;
+}
+.columntxt{
+  text-align: left;
+  float: left;
+  width: 50%;
+  font-size: 12;
+}
